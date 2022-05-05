@@ -41,4 +41,49 @@ body{
     font-size: 25px;
     text-align: center;
 }
+/*--------------------------Main-------------------------------------------*/
+.container{
+    background-color: #fff;
+    margin: 5% 15% 5% 15%;
+    padding: 3%;
+    border-radius: 14px;
+}
 
+.img_perfil > img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.text_main{
+    font-size: 25px;
+    margin-top: 1%;
+    letter-spacing: 1px;
+}
+.bold_exp{
+    font-weight: bold;
+    font-size: 30px;
+}
+.lista_exp{
+    font-size: 25px;
+}
+
+.fotos_paes{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fotos_paes img {
+    border-radius: 8px;
+    filter: grayscale(1);
+    width: 408px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 18px;
+    margin-top: 4px;
+  }
+  
+  .fotos_paes img:hover {
+    filter: none;
+  }
+  
