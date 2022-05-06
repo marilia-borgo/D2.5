@@ -47,7 +47,8 @@ body{
     background-color: #fff;
     margin: 5% 15% 5% 15%;
     padding: 3%;
-    border-radius: 14px;
+    border-radius: 15px; 
+    /* trocou pra 15 de 14 */
 }
 
 .img_perfil > img{
