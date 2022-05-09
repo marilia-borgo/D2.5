@@ -7,6 +7,23 @@
     <meta name="viewport" content="width=], initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+     <!-- web fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&family=Lora:ital,wght@0,700;1,400&display=swap"
+       rel="stylesheet"
+     />
+
+     <!-- Ícones-->
+     <link
+     class="fonte--grande"
+     rel="stylesheet"
+     href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+     crossorigin="anonymous"
+   />
     <title>Desafio D2.5</title>
 </head>
 
@@ -45,7 +62,7 @@
             de casa.
         </p>
 
-        <div class="experiencia">
+        <div class="experiencia" id="experiencia">
             <b class="bold_exp">
                 Experiência
             </b>
@@ -55,7 +72,7 @@
             <li>2011 até 2015: Especializado na culinária Italiana e pratos do Norte do Brasil</li>
             <li>2000 até 2010: Pratos típicos da culinária brasileira</li>
         </ul>
-        <div class="portfolio">
+        <div class="portfolio" id="portifolio">
             <b class="bold_exp">
                 Portfólio
             </b>
@@ -66,31 +83,62 @@
                 <img src="https://i.pinimg.com/564x/9b/d6/1f/9bd61f267ba64e482c68a2a9599ddf50.jpg" alt="" />
             </div>
         </div>
-        <div class="contato">
+        <div class="contato" id ="contato">
             <b class="bold_exp">
                 Contato
             </b>
-            <p class="contato_text">+55 12 991 000 999</p>
-            <p class="contato_text"> +55 12 991 000 999</p>
-            <p class="contato_text"> chef@roger.br</p>
-            <p class="contato_text">https://roger.br</p>
+            <p class="contato_text">   <i class="fas fa-phone-alt pr4"></i> +55 12 991 000 999</p>
+            <p class="contato_text">   <i class="fab fa-whatsapp pr4"></i> +55 12 991 000 999</p>
+            <p class="contato_text"> <i class="far fa-envelope-open pr4"></i>   chef@roger.br</p>
+            <p class="contato_text"> <i class="fas fa-globe pr4"></i> https://roger.br</p>
         </div>
+
+      
+        <h3 class="bold_exp" id="habilidades">Habilidades</h3>
 
         <div class="habilidades">
-            <b class="bold_exp">
-                Habilidades
-            </b>
-            <p class="habilidades_text">Cozinha italiana</p>
+          <p class="contato_text">
+            <label for="progress-bar-1">Cozinha Italiana</label>
+            <progress id="progress-bar-1" value="8" max="10"></progress>
+          </p>
+          <p class="contato_text">
+            <label for="progress-bar-2">Cozinha Tailandesa</label>
+            <progress id="progress-bar-2" value="6" max="10"></progress>
+          </p>
+          <p class="contato_text">
+            <label for="progress-bar-3">Cozinha Indiana</label>
+            <progress id="progress-bar-3" value="4" max="10"></progress>
+          </p>
+          <p class="contato_text">
+            <label for="progress-bar-4">Pães & Fermentação</label>
             <progress id="progress-bar-4" value="9" max="10"></progress>
-            <p class="habilidades_text">Cozinha Tailandesa</p>
-            <progress id="progress-bar-4" value="9" max="10"></progress>
-            <p class="habilidades_text">Cozinha Indiana</p>
-            <progress id="progress-bar-4" value="9" max="10"></progress>
-            <p class="habilidades_text">Pães & Fermentação</p>
-            <progress id="progress-bar-4" value="9" max="10"></progress>
+          </p>
         </div>
+      </div>
+
 
     </main>
+
+    <div class="footer">
+        <h4> Marília Moraes | Buser Tech | 2022</h4>
+        <p class="links">
+          <a href="https://github.com/huogerac/minhalandingpage" target="blank">
+            <i class="pa2 fab fa-github-alt"></i>
+          </a>
+          <a href="https://huogerac.hashnode.dev/" target="blank">
+            <i class="pa2 fas fa-blog"></i>
+          </a>
+          <a href="https://speakerdeck.com/huogerac" target="blank">
+            <i class="pa2 fab fa-slideshare"></i>
+          </a>
+          <a
+            href="https://www.goodreads.com/user/show/12238416-roger-camargo"
+            target="blank"
+          >
+            <i class="pa2 fas fa-book"></i>
+          </a>
+        </p>
+      </div>
 
 
 </body>

@@ -5,6 +5,17 @@ body{
     
 }
 
+a{
+    font-size: 25px;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #511415;
+    text-decoration: none;
+   
+
+}
+
 .square_top {
     background-color: #fff;
     width: 110px;
@@ -52,19 +63,24 @@ body{
     width: 80px;
     height: 80px;
     float: left;
+    margin: 2%;
 }
 
 .text_main{
     font-size: 25px;
     margin-top: 1%;
     letter-spacing: 1px;
+    line-height: 1.5;
 }
 .bold_exp{
     font-weight: bold;
     font-size: 30px;
+    line-height: 1.5;
 }
 .lista_exp{
+    padding-left: 14px;
     font-size: 25px;
+    line-height: 1.5;
 }
 
 .fotos_paes{
@@ -91,7 +107,45 @@ body{
     margin-top: 1%;
     letter-spacing: 1px;
   }
-  .habilidades progress {
-    accent-color: #2e2d4c;
+
+  .habilidades label {
+    width: 280px;
+    display: inline-block;
   }
   
+  .habilidades progress {
+    accent-color: #1a0808;
+  }
+  .footer {
+    position: relative;
+    padding: 120px;
+    background-color: #281617;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer .links a {
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+  
+  .footer .links a:hover {
+    color: #f10000;
+  }
+
+  @media (max-width: 720px){
+
+    .fotos_paes img {
+    border-radius: 8px;
+    filter: grayscale(1);
+    width: 274px;
+    height: 170px;
+    object-fit: cover;
+    margin-right: 18px;
+    margin-top: 4px;
+  }
+    .fotos_paes{
+        display: inline-grid;
+        grid-template-columns: auto ;
+    }
+  }
