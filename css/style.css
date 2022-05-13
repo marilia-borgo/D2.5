@@ -17,14 +17,14 @@ a{
 }
 
 .square_top {
-    background-color: #fff;
-    width: 110px;
-    height: 110px;
-    margin-left: 550px;
-    margin-right: 50%;
-    margin-top: -50px;
-    transform: translateX(50%) rotate(45deg);
 
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 50%;
+  margin-top: -110px;
+  transform: translateX(50%) rotate(45deg);
 }
 
 .img_top{
@@ -86,16 +86,18 @@ a{
 .fotos_paes{
     display: grid;
     grid-template-columns: auto auto;
+    
 }
 
 .fotos_paes img {
     border-radius: 8px;
     filter: grayscale(1);
-    width: 408px;
-    height: 200px;
+    width: 398px;
+    height: 190px;
     object-fit: cover;
     margin-right: 18px;
     margin-top: 4px;
+    justify-self: center;
   }
   
   .fotos_paes img:hover {
